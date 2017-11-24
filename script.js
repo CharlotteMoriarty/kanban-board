@@ -92,8 +92,8 @@ $(function () {
         $('.column-card-list').sortable({
             connectWith: '.column-card-list',
             placeholder: 'card-placeholder'
-            forcePlaceholderSize: true,
-            dropOnEmpty: true
+           // forcePlaceholderSize: true,
+          //  dropOnEmpty: true
         }).disableSelection();
     }
 
