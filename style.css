@@ -101,7 +101,7 @@ button {
     color: black;
     padding: 10px 14px;
     position: relative;
-    margin: 1% 12%;
+    margin: 1% 12% 0 30%;
     font-size: 30px;
     cursor: pointer;
 }
