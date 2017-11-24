@@ -104,6 +104,7 @@ button {
     position: relative;
     margin: 1% 12%;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .card-placeholder {
