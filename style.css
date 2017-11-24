@@ -28,7 +28,6 @@ button {
     font-family: 'chewy';
     top: 2%;
     position: relative;
-    color: black;
 }
 /*wszystko co dotyczy tabkicy*/
 .board {
@@ -80,7 +79,7 @@ button {
 .column > button[class^="btn"] {
     height: 15%;
     width: 10%;
-    color: black;
+    color: white;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -115,7 +114,7 @@ button {
 
 .card > button[class^="btn"] {
     background: rgba(0, 0, 0, 0);
-    color: black;
+    color: white;
     font-weight: 300;
     position: absolute;
     top: 0;
