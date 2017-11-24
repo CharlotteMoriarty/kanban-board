@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'chewy';
+    height: 100vh;
+}
+
+ul,
+il {
+    list-style-type: none;
+    margin-left: 5% 1%;
+}
+
+/*wszystko co dotyczy przycisków*/
+
+button {
+    outline: none;
+}
+.btn-delete {
+    background: rgba(0, 0, 0, 0.4);
+    font-weight: 300;
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'chewy';
+    top: 2%;
+    position: relative;
+    color: black;
+}
+/*wszystko co dotyczy tabkicy*/
+.board {
+    position: relative;
+}
+
+.board h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+/*wszystko co dotyczy kolumn*/
+
+.create-column {
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.0);
+    margin-left: 280px;
+    position: relative;
+    bottom: 0;
+    top: -7px;
+    border: none;
+    font-family: 'chewy';
+}
+
+.column-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: table;
+    min-height: 450px;
+    position: relative;
+}
+
+.column {
+    display: table-cell;
+    width: calc(1200px/ 3);
+    /*ewentualnie na sztywno width: 400px;*/
+    position: relative;
+    padding: 5px 30px;
+}
+
+.columnt-card-list {
+    width: 100%;
+    min-height: 60px;
+}
+
+.column > button[class^="btn"] {
+    height: 15%;
+    width: 10%;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: 'chewy';
+    border: none;
+    background: rgba(0, 0, 0, 0.0);
+}
+
+.column-title {
+    margin: 20px 0 20px 0;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+/*wszystko co dotyczy card*/
+
+.card {
+    color: black;
+    padding: 10px 14px;
+    position: relative;
+    margin: 1% 12%;
+    font-size: 30px;
+}
+
+.card-placeholder {
+    padding: 10px 14px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.0);
+}
+
+.card > button[class^="btn"] {
+    background: rgba(0, 0, 0, 0);
+    color: black;
+    font-weight: 300;
+    position: absolute;
+    top: 0;
+    right: -33%;
+    width: 10%;
+    height: 10%;
+    border: none;
+}
+
+.add-card {
+    background: rgba(0, 0, 0, 0.0);
+    padding: 10px 15px;
+    font-size: 25px;
+    border: none;
+    color: white;
+    width: 90%;
+    bottom: 0;
+    left: 40px;
+    position: absolute;
+    font-family: 'chewy';
+}
+/*wtyczka particles*/
+#particles-js {
+    height: 100vh;
+    background: #666;
+    position: absolute;
+    width: 100%;
+}
+
+.important {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    max-width: 100%;
+    padding: 2em 3em;
+    background: rgba(0, 0, 0, 0.4);
+}
