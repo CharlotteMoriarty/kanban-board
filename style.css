@@ -139,7 +139,7 @@ button {
 /*wtyczka particles*/
 #particles-js {
     height: 100vh;
-    background: #666;
+    background: #a3a3a3;
     position: absolute;
     width: 100%;
 }
