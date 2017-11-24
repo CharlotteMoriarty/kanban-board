@@ -90,10 +90,10 @@ $(function () {
 
     function initSortable() {
         $('.column-card-list').sortable({
+            placeholder: 'card-placeholder',
+            forcePlaceholderSize: true,
             connectWith: '.column-card-list',
-            placeholder: 'card-placeholder'
-           // forcePlaceholderSize: true,
-          //  dropOnEmpty: true
+            dropOnEmpty: true
         }).disableSelection();
     }
 
