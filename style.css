@@ -64,10 +64,12 @@ button {
 }
 .column {
     display: table-cell;
-    width: calc(1300px / 3);
+    width: calc(1200px / 3);
     /*ewentualnie na sztywno width: 400px;*/
     position: relative;
-    padding: 5px 2px;
+    padding: 10px 1px;
+    
+
 }
 .column-card-list {
     width: 100%;
@@ -81,7 +83,7 @@ button {
     color: white;
     position: absolute;
     bottom: 0;
-    right: 40px;
+    right: -1px;
     font-family: 'chewy';
     border: none;
     background: rgba(0, 0, 0, 0.0);
@@ -104,7 +106,7 @@ button {
     font-size: 30px;
     font-family: 'chewy';
     cursor: pointer;
-    margin: 3% 5% 8% 6%;
+    margin: 5% 5%;
     
 }
 .card-placeholder {
