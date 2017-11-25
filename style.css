@@ -67,7 +67,7 @@ button {
     width: calc(1300px / 3);
     /*ewentualnie na sztywno width: 400px;*/
     position: relative;
-    padding: 10px 22px 15px;
+    padding: 5px 2px;
 }
 .column-card-list {
     width: 100%;
