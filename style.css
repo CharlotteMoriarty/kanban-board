@@ -1,60 +1,60 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
-    font-family: 'chewy';
-    height: 100vh;
+        font-family: 'chewy';
+        height: 100vh;
+        background: #666;
+    
 }
-
-ul,
-il {
+ul,li {
     list-style-type: none;
-    margin-left: 5% 1%;
+    
 }
+/*wszystko co dotyczy tablicy*/
 
-/*wszystko co dotyczy przycisków*/
-
-button {
-    outline: none;
-}
-.btn-delete {
-    background: rgba(0, 0, 0, 0.4);
-    font-weight: 300;
-    font-size: 40px;
-    padding: 10px;
-    font-family: 'chewy';
-    top: 2%;
-    position: relative;
-}
-/*wszystko co dotyczy tabkicy*/
 .board {
     position: relative;
 }
 
 .board h1 {
     text-align: center;
+    font-family: 'chewy';
     font-weight: 400;
     font-size: 50px;
 }
-
+/*wszystko co dotyczy przycisków*/
+.btn-delete {
+    background: none;
+    font-weight: 300;
+    font-size: 40px;
+    padding: 10px; 
+    font-family: 'chewy';
+    top: 2%;
+    right: 5%;
+}
+button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
 /*wszystko co dotyczy kolumn*/
-
 .create-column {
     padding: 10px;
     color: white;
     font-size: 30px;
     background: rgba(0, 0, 0, 0.0);
-    margin-left: 280px;
+    
     position: relative;
     bottom: 0;
     top: -7px;
+    left: 40%;
     border: none;
     font-family: 'chewy';
 }
-
 .column-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -62,71 +62,69 @@ button {
     min-height: 450px;
     position: relative;
 }
-
 .column {
     display: table-cell;
-    width: calc(1200px/ 3);
+    width: calc(1300px / 3);
     /*ewentualnie na sztywno width: 400px;*/
     position: relative;
-    padding: 5px 30px;
+    padding: 10px 22px 15px;
 }
-
 .column-card-list {
     width: 100%;
     min-height: 60px;
+    
 }
-
+/*dopasować rozmiary*/
 .column > button[class^="btn"] {
     height: 15%;
     width: 10%;
     color: white;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 40px;
     font-family: 'chewy';
     border: none;
     background: rgba(0, 0, 0, 0.0);
 }
-
 .column-title {
     margin: 20px 0 20px 0;
     text-align: center;
     font-size: 35px;
     color: black;
+    font-family: 'chewy';
 }
-
 /*wszystko co dotyczy card*/
 
 .card {
+    background: #c1c1c1;
     color: black;
-    padding: 10px 14px;
+    padding: 10px 16px;
     position: relative;
-    margin: 1% 12% 0 30%;
+    left: 0%;
     font-size: 30px;
+    font-family: 'chewy';
     cursor: pointer;
+    margin: 3% 5% 8% 6%;
+    
 }
-
 .card-placeholder {
     padding: 10px 14px;
-    margin: 0 auto;
+    margin: 3% 5% 8% 6%;
     background: rgba(0, 0, 0, 0.0);
 }
-
 .card > button[class^="btn"] {
-    background: rgba(0, 0, 0, 0);
-    color: white;
+    background: none;
+    color: black;
     font-weight: 300;
     position: absolute;
-    top: 0;
-    right: -33%;
-    width: 10%;
+    top:-15%;
+    right: -4%;
     height: 10%;
-    border: none;
+    
 }
-
 .add-card {
     background: rgba(0, 0, 0, 0.0);
-    padding: 10px 15px;
+    padding: 20px 15px;
     font-size: 25px;
     border: none;
     color: white;
@@ -136,10 +134,14 @@ button {
     position: absolute;
     font-family: 'chewy';
 }
+
+
+
 /*wtyczka particles*/
 #particles-js {
     height: 100vh;
     background: #a3a3a3;
+    
     position: absolute;
     width: 100%;
 }
