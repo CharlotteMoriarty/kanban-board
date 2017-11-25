@@ -114,7 +114,7 @@ $(function () {
 
     var card1 = new Card('New task');
     var card2 = new Card('In progress');
-    var card3 = new Card('Finished task');
+    var card3 = new Card('Finished ');
 
     todoColumn.addCard(card1);
     doingColumn.addCard(card2);
